@@ -1,0 +1,20 @@
+{
+  "name": "google-meet-clone",
+  "version": "0.0.0",
+  "private": true,
+  "engines": {
+    "node": "14"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "twilio-run",
+    "deploy": "twilio-run deploy"
+  },
+  "dependencies": {
+    "twilio": "3.56",
+    "@twilio/runtime-handler": "1.2.2"
+  },
+  "devDependencies": {
+    "twilio-run": "3.4.1"
+  }
+}

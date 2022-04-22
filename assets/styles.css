@@ -1,0 +1,18 @@
+body {
+  background: #f0f0f0;
+  font-family: system-ui;
+  display: grid;
+  place-content: center;
+  min-height: 100vh;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+#container {
+  width: 100%;
+}
+
+.participant video {
+  width: 50%;
+  height: auto;
+}

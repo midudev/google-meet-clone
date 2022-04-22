@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Google Meet Clone</title>
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <h1>Google Meet</h1>
+  <form id="form">
+    Name: <input id="username" placeholder="Type your username...">
+    <button id="join">Join Call</button>
+  </form>
+  <p id="count"></p>
+  <div id="container">
+    <div id="local" class="participant">
+      <div id="local-video"></div>
+      <div>Yo</div>
+    </div>
+    <!-- al resto de participantes -->
+  </div>
+
+  <script defer src="https://sdk.twilio.com/js/video/releases/2.21.0/twilio-video.min.js"></script>
+  <script defer src="./app.js"></script>
+</body>
+</html>
